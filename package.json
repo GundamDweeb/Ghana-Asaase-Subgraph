@@ -5,6 +5,7 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ ghana-asaase",
+    "deploy-hosted" : "graph deploy --product hosted-service gundamdweeb/ghana-land-regsitry",
     "create-local": "graph create --node http://localhost:8020/ ghana-asaase",
     "remove-local": "graph remove --node http://localhost:8020/ ghana-asaase",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 ghana-asaase",
